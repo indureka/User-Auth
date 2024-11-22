@@ -109,13 +109,13 @@ Response:
 1. Root Route:
 
 Method: GET
-URL: http://localhost:5000/
+URL: http://localhost:6000/
 
 
 2. Register User:
 
 Method: POST
-URL: http://localhost:5000/api/auth/register
+URL: http://localhost:6000/api/auth/register
 Body (raw, JSON):
 
 
@@ -128,7 +128,7 @@ Body (raw, JSON):
 3. Login User:
 
 Method: POST
-URL: http://localhost:5000/api/auth/login
+URL: http://localhost:6000/api/auth/login
 Body (raw, JSON):
 
 
@@ -140,7 +140,7 @@ Body (raw, JSON):
 4. Get User Profile:
 
 Method: GET
-URL: http://localhost:5000/api/user/profile
+URL: http://localhost:6000/api/user/profile
 Headers:
 Authorization: Bearer <your_jwt_token_here>
 
